@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerBehavior : MonoBehaviour
 {
+<<<<<<< HEAD
+=======
+    public Text Count;
+>>>>>>> parent of 6562930... count
 
     public float m_speed = 100f;
     public Rigidbody2D m_rb2D;
@@ -12,6 +16,19 @@ public class PlayerBehavior : MonoBehaviour
     void Start()
     {
         
+<<<<<<< HEAD
+=======
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "candy")
+        {
+            Destroy(collision.gameObject);
+            m_CandyCount = m_CandyCount + 1;
+            Count.text = m_CandyCount.ToString ();
+        }
+>>>>>>> parent of 6562930... count
     }
 
     // Update is called once per frame
