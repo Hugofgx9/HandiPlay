@@ -693,6 +693,9 @@ GameObject:
   - component: {fileID: 991056237}
   - component: {fileID: 991056236}
   - component: {fileID: 991056240}
+<<<<<<< HEAD
+  - component: {fileID: 991056241}
+=======
   m_Layer: 0
   m_Name: marcoface
   m_TagString: Untagged
@@ -3861,6 +3864,7 @@ GameObject:
   - component: {fileID: 1730874761}
   - component: {fileID: 1730874762}
   - component: {fileID: 1730874763}
+>>>>>>> 165cc9ad4e0eeee13a2e1e3988533e9ed416dbbc
   m_Layer: 0
   m_Name: candy
   m_TagString: candy
@@ -4045,8 +4049,32 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0126953125}
   serializedVersion: 2
+<<<<<<< HEAD
+  m_Radius: 0.12249691
+--- !u!95 &991056241
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991056235}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1351065880
+=======
   m_Radius: 0.208004
 --- !u!1 &1995064104
+>>>>>>> 165cc9ad4e0eeee13a2e1e3988533e9ed416dbbc
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
