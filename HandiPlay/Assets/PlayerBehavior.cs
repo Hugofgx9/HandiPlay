@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class PlayerBehavior : MonoBehaviour
 {
     public Text Count;
-    public Text Win;
 
     public float m_speed = 100f;
     public Rigidbody2D m_rb2D;
@@ -15,7 +14,7 @@ public class PlayerBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Win.text = "";
+        
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -25,12 +24,6 @@ public class PlayerBehavior : MonoBehaviour
             Destroy(collision.gameObject);
             m_CandyCount = m_CandyCount + 1;
             Count.text = m_CandyCount.ToString ();
-
-            if (m_CandyCount >= 3)
-            
-                Win.text = "You win!";
-                
-            
         }
     }
 
