@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        if(Input.GetKey(KeyCode.LeftArrow))
+        if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey("q"))
         {
             animator.SetBool("GoLeft", true);
         } else
@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey("d"))
         {
             animator.SetBool("GoRight", true);
         }
@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey("s"))
         {
             animator.SetBool("GoDown", true);
         }
@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("GoDown", false);
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey("z"))
         {
             animator.SetBool("GoUp", true);
         }
