@@ -656,6 +656,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
   Count: {fileID: 113232142}
+<<<<<<< HEAD
+>>>>>>> parent of 6562930... count
+=======
 >>>>>>> parent of 6562930... count
   m_speed: 2
   m_rb2D: {fileID: 991056236}
@@ -3466,6 +3469,7 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1429667665
+<<<<<<< HEAD
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3564,6 +3568,8 @@ CircleCollider2D:
   serializedVersion: 2
   m_Radius: 0.20800447
 --- !u!1 &1535773128
+=======
+>>>>>>> parent of 6562930... count
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

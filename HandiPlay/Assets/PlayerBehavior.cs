@@ -7,6 +7,9 @@ public class PlayerBehavior : MonoBehaviour
 <<<<<<< HEAD
 =======
     public Text Count;
+<<<<<<< HEAD
+>>>>>>> parent of 6562930... count
+=======
 >>>>>>> parent of 6562930... count
 
     public float m_speed = 100f;
@@ -17,7 +20,10 @@ public class PlayerBehavior : MonoBehaviour
     {
         
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 6562930... count
     }
 
     void OnCollisionEnter2D(Collision2D collision)
