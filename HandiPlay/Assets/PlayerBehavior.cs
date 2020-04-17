@@ -8,6 +8,9 @@ public class PlayerBehavior : MonoBehaviour
 =======
     public Text Count;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6562930... count
+=======
 >>>>>>> parent of 6562930... count
 =======
 >>>>>>> parent of 6562930... count
@@ -21,7 +24,10 @@ public class PlayerBehavior : MonoBehaviour
         
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 6562930... count
 =======
 >>>>>>> parent of 6562930... count
     }
