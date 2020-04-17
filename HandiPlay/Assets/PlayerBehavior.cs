@@ -34,4 +34,5 @@ public class PlayerBehavior : MonoBehaviour
         m_rb2D.MovePosition(m_rb2D.position + Time.fixedDeltaTime * m_speed * Vector2.down);
     }
     }
+
 }
